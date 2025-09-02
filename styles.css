@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: antiquewhite;
+    flex-direction: column;
+    padding: 20px 20px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 2px 4px 3px 2px rgb(27, 20, 20);
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background: darkgreen;
+}
+
